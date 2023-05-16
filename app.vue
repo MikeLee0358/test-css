@@ -5,6 +5,19 @@
 </template>
 
 <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+video,
+iframe,
+img {
+  width: 100;
+  display: block;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -16,5 +29,4 @@
 
 .font-bold {
   font-weight: 700;
-}
-</style>
+}</style>
